@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+.container {
+    width: 100vw ;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+ 
+}
+.child {
+    display: flex;
+    flex-direction: column; 
+    width: 20vw ;
+    height: 100vh;
+    background-color: gray;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.content1 {
+color:black;
+padding-left: 15px;
+margin-top: 180px;
+margin-bottom: 20px;
+height: 40px;
+
+}
+.content2 {
+    color:black;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    height: 40px;
+    
+    }
+    .content3 {
+        color:black;
+        padding-left: 15px;
+        margin-bottom: 20px;
+        height: 40px;
+       
+        }
+        .content4 {
+            color:black;
+            padding-left: 15px;
+            height: 40px;
+           
+            }
+.child > a {
+    text-decoration: none;   
+}
+.child > a :hover {
+    background-color: rgb(196, 192, 192);
+}
+
+.main_page {
+    margin-left: 310px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+  
+}
+.main_page > h1 {
+   font-size: 60px;
+   letter-spacing: 3px;
+   text-align: center;
+}
+.main_page > p {
+    color: black;
+    text-align: centar;
+}
+.main_page > img {
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+    opacity: 0.6;
+    margin-left: 280px;
+  
+}
+.main_page > img:hover {
+    background-color: rgb(201, 182, 182);
+}
+.early_life {
+    margin-left: 310px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;   
+
+}
+.pupin_coils {
+    margin-left: 310px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;   
+}
+.pupin_coils img {
+    width: 500px;
+    height: 450px;
+    float: left;
+}
+.literary_work {
+    margin-left: 310px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;   
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 98%;
+  }
+  
+  th {
+      text-align: center;
+      border: 1px solid #dddddd;
+    padding: 8px;
+  }
+  td{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+ 
